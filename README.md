@@ -49,9 +49,10 @@ Só o Administrador têm acesso á página de moderação ("moderação.php"), p
 <img src="https://lietz.dev.br/imagens.readme/aprovada_celular.png" width="250px">
 
 
-## Instalação 
-
-É nescessário que o administrador tenha um id definido como "id_master" para acessar a página de moderação ("moderacao.php").
+## Instalação
+ 
+### Atenção:
+O código publicado em meu portfólio possui um sistema de segurança nas páginas de administração, como por exemplo a "moderacao.php". Não os incluí no código desse repositório, mas é fundamental que essas medidas de segurança sejam realizadas ao implementar páginas assim.  
 
 ## 🗄️ Banco de Dados
 
