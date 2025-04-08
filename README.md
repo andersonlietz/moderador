@@ -5,7 +5,6 @@ Sistema de publicação, moderação e exibição de mensagens postadas pelos us
 
 O usuário entra na página e se depara com uma mensagem aleatória já existente no banco de dados, e pode clicar no botão de "Próxima Mensagem" para conferir outra, e assim sucessivamente. Abaixo da exibição das mensagens existentes, o usuário têm a possibilidade de enviar uma mensagem também, algo engraçado ou alguma citação. O sistema não exige login do usuário, mas grava o endereço ip e bloqueia o usuário por várias horas se este enviar mais mensagens do que o permitido por hora.
 Após o envio da mensagem, ela permanece esperando pela moderação do administrador na página de moderação. Quando o Administrador entra, se depara com as mensagens que esperam pela moderação, e pode clicar no link de aprovação da mensagem, ou de exclusão. A aprovação permite que a mensagem seja exibida com as outras na tela inicial, mas a exclusão a apaga permanentemente do banco de dados.
-Só o Administrador têm acesso á página de moderação ("moderação.php"), pois todos os usuários que não estão com o id definido como "id_master", serão redirecionados para a página inicial.
 
 ## Aplicação em funcionamento: 
 
@@ -50,7 +49,7 @@ Só o Administrador têm acesso á página de moderação ("moderação.php"), p
 
 
 ## Instalação
- 
+
 ### Atenção:
 O código publicado em meu portfólio possui um sistema de segurança nas páginas de administração, como por exemplo a "moderacao.php". Não os incluí no código desse repositório, mas é fundamental que essas medidas de segurança sejam realizadas ao implementar páginas assim.  
 
